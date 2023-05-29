@@ -3,32 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angkringan</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <title>Ruruw Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,0" />
 </head>
 <body>
-    <header class="header">Angkringan</header>
+    <header class="header">Ruruw Cafe</header>
     <main class="main">
         <section class="leftbar">
             <div class="left-section ls-1">
                 <span>Mode</span>
             </div>
-            <div class="left-section ls-2">
+            <div id="hide" class="left-section ls-2">
                 <span>Hide</span>
             </div>
         </section>
         <section class="rightbar">
             <div class="menus">
                 <div class="menu-header">
-                    <span id="selected-categories">Minuman</span>
+                    <div id="selected-categories">Minuman</div>
                     <div class="categories-list">
-                        <span>Minuman</span>
-                        <span>Minuman</span>
-                        <span>Minuman</span>
-                        <span>Minuman</span>
-                    </div>
+                        <ul class="dropdown">
+                            <li>Minuman</li>
+                            <li>Minuman</li>
+                            <li>Minuman</li>
+                            <li>Minuman</li>
+                        </ul>     
+                        <span class="material-symbols-rounded drop-icon">
+                            arrow_drop_down_circle
+                        </span>
+                                       
+                    </div>                  
                 </div>
-                <div class="menu-list"></div>
+                <div class="menu-list">
+                    <!--
+                    <div class="list">
+                        <img src="lele.jpeg">
+                        <span>Jus apel</span>
+                        <div>
+                            <button>-</button>
+                            <input type="number">
+                            <button>+</button>
+                        </div>
+                    </div>
+                    -->
+                </div>
             </div>
             <div class="order">
                 <div class="order-header">
@@ -39,5 +58,6 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
