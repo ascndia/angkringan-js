@@ -1,63 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="in">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruruw Cafe</title>
+    <title>Ruruw cafe</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,0" />
 </head>
 <body>
-    <header class="header">Ruruw Cafe</header>
-    <main class="main">
-        <section class="leftbar">
-            <div class="left-section ls-1">
-                <span>Mode</span>
-            </div>
-            <div id="hide" class="left-section ls-2">
-                <span>Hide</span>
-            </div>
-        </section>
-        <section class="rightbar">
-            <div class="menus">
-                <div class="menu-header">
-                    <div id="selected-categories">Minuman</div>
-                    <div class="categories-list">
-                        <ul class="dropdown">
-                            <li>Minuman</li>
-                            <li>Minuman</li>
-                            <li>Minuman</li>
-                            <li>Minuman</li>
-                        </ul>     
-                        <span class="material-symbols-rounded drop-icon">
-                            arrow_drop_down_circle
-                        </span>
-                                       
-                    </div>                  
-                </div>
-                <div class="menu-list">
-                    <!--
-                    <div class="list">
-                        <img src="lele.jpeg">
-                        <span>Jus apel</span>
-                        <div>
-                            <button>-</button>
-                            <input type="number">
-                            <button>+</button>
-                        </div>
-                    </div>
-                    -->
-                </div>
-            </div>
-            <div class="order">
-                <div class="order-header">
-                    <span>Order no <span>3139</span></span>
-                </div>
-                <div class="order-list"></div>
-                <div class="order-footer"></div>
-            </div>
-        </section>
+    <header>
+        <span>Ruruw Cafe</span>
+        <div>
+            <select id="categories">
+            </select>
+        </div>
+    </header>
+    <main id="main">       
     </main>
+    
+    <order>
+        <div id="items">
+            <span id="total-items">24 Items</span>
+            <span id="price">Total: 50000 Rp</span>           
+        </div>       
+        <button>
+            Process
+        </button>
+    </order>
     <script src="script.js"></script>
 </body>
 </html>
