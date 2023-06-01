@@ -227,7 +227,7 @@ order #items{
     bottom:0;
     position:absolute;
 }
-@media(min-width:762px){
+@media(min-width:972px){
     header{
         height:15%;
         max-height:80px;
